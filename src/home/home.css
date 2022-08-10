@@ -1,0 +1,19 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar {
+    position: absolute; 
+    top:0; 
+    z-index: 3;
+}
+
+.img-holder {
+    position: absolute; 
+    top: 50px; 
+    z-index: 1; 
+    width: 100%; 
+}
+
+

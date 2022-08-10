@@ -1,0 +1,126 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+.base-sign-up {
+    position: absolute; 
+    top : 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    align-content: center;  
+    padding-top: 3.5%; 
+}
+
+.base-sign-up .login-logo {
+    width: 12%; 
+    height: 20%; 
+    margin-bottom: 30px; 
+    background-image: url("./yad_logo.png"); 
+    background-size: 100% 100%; 
+}
+
+.base-sign-up .user-data {
+    position: relative; 
+    width : 40%; 
+    height : 58%; 
+    background-color: #99FF99; 
+}
+
+.base-sign-up .user-data h1 {
+    color : #009900; 
+}
+
+.base-sign-up .user-data .for-rel {
+    position: absolute; 
+    top : 0; 
+    left : 0; 
+    width: 100%; 
+    height: 100%; 
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    display: flex; 
+    align-items: center; 
+    align-content: center; 
+    flex-direction: column; 
+}
+
+.for-rel form .two-input{
+    padding-top: 40px; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    align-content: center; 
+    width : 100%; 
+}
+
+.for-rel form .input-box {
+    padding-top: 40px; 
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    align-content: center; 
+    width : 100%; 
+}
+.for-rel form .two-input .input-box {
+    padding: 0; 
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    align-content: center; 
+    width : 50%; 
+}
+
+.for-rel form .input-box .font-awesome {
+    position : absolute; 
+    top : 46px; 
+    left: 35px; 
+    color: #33cc00; 
+}
+
+.for-rel form .two-input .input-box .font-awesome {
+    top : 6px; 
+    left: 16px; 
+}
+
+.for-rel input {
+    font-size : 17px; 
+    font-weight : bold; 
+    border : none; 
+    border-bottom: 4px solid #53ff1a; 
+    background-color: #99FF99; 
+    padding: 4px; 
+    padding-left: 30px; 
+    width : 80%; 
+}
+
+.for-rel input:focus, 
+.for-rel input:valid {
+    outline: none !important; 
+    border-bottom: 4px solid #33cc00; 
+}
+
+.for-rel input[type="submit"] {
+    border : none; 
+    padding : 0; 
+    background-color: #39E600; 
+    line-height: 40px; 
+    font-weight: bold; 
+    font-size: 20px; 
+    text-align: center; 
+    color: #ffffff; 
+    /*-webkit-text-stroke: 1px #cccccc; */
+}
+
+.for-rel input[type="submit"]:hover {
+    background-color : #79ff4d; 
+    cursor : pointer; 
+}
+

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+.ills {
+    background-image: url("./bitmap-11.png"); 
+    height: 650px; 
+    width: 100%; 
+    background-size: 100% 100%; 
+}
+
+.rel {
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.rel h1 {
+    position: absolute; 
+    bottom: 70px; 
+    right: 60px; 
+    font-size: 110px; 
+    width: 35%; 
+    text-align: left; 
+    -webkit-text-stroke: 2px #000000; 
+    color: #ffffff; 
+    /*font-family: 'Irish Grover', cursive;*/
+    /*font-family: 'Mochiy Pop One', sans-serif;*/
+    font-weight: bold; 
+}
+
+.img-holder .view {
+    background-image: url("./stacked-waves-haikei(2).png"); 
+    width: 100%; 
+    height: 700px; 
+    position: absolute; 
+    top: 630px; 
+    background-size: 100% 100%; 
+}
+
+.img-holder .view .img {
+    width: 600px; 
+    height: 400px;
+    background-size: 100% 100%; 
+    border: 0.4px solid #cccccc; 
+}
+
+.img-holder .view .img.im1 {
+    position: absolute; 
+    top : -50px;  
+    left : 30px; 
+    background-image: url("./Chat(1).png"); 
+    z-index: 2; 
+}
+.img-holder .view .img.im2 {
+    position: absolute; 
+    top : 30%; 
+    left : 30%; 
+    z-index: 4; 
+    background-image: url("./Profile(1).png")
+}
+.img-holder .view .img.im3 {
+    position: absolute; 
+    top: -39px; 
+    right: 30px; 
+    z-index: 2; 
+    background-image: url("./Profile 3.png")
+}
+.img-holder .adv {
+    width: 100%; 
+    height: 400px; 
+    background-color: #ffffff; 
+    position : absolute; 
+    top : 1300px;  
+}
+
+.adv .text-content {
+    position : absolute; 
+    top : 10%; 
+    left : 10%; 
+    text-align: center; 
+}
+
+.adv h1 {
+    font-weight: bold; 
+    font-size: 50px; 
+    color : #00E600; 
+    margin-bottom: 30px; 
+}
+
+.adv h2 ul {
+    list-style: none; 
+}
+
+.adv h2 ul li {
+    margin-top: 10px; 
+    color: #666666;  
+}
+
+.adv button {
+    width: 300px; 
+    height: 140px; 
+    padding: 30px; 
+    font-size: 60px; 
+    font-weight: bold; 
+    position : absolute; 
+    right: 12%; 
+    top : 50px; 
+    border-radius: 10px; 
+    border : none; 
+    background-color: #39E600; 
+    color: #ffffff; 
+}
+
+.img-holder .login-sect {
+    width: 100%; 
+    height: 200px; 
+    position: absolute; 
+    top : 1600px;  
+    background-color : #C6FFB3; 
+    z-index: 6; 
+}
+
+.img-holder .login-sect .cnt {
+   display : flex;  
+   position : absolute; 
+   top : 50px;  
+   width: 1200px; 
+   left : 6%; 
+   align-items: center; 
+   align-content: center; 
+   z-index: 10; 
+}
+
+.img-holder .login-sect .cnt h1 {
+    color: #269900; 
+    font-size: 70px; 
+    font-weight: bold; 
+    margin-right: 50px; 
+}
+
+.img-holder .login-sect .cnt button {
+    background-color: #40FF00; 
+    color: #ffffff; 
+    font-size: 50px; 
+    font-weight: bold; 
+    padding: 15px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    border: none; 
+    border-radius: 10px; 
+}
+
+.footer {
+    width: 100%; 
+    height: 30px; 
+    background-color: #208000; 
+    position: absolute; 
+    top : 1800px; 
+}
